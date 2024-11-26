@@ -1,0 +1,41 @@
+# Entorno virtual
+.venv/
+
+# Archivos de compilación de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de configuración de entornos
+.env
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de IDEs
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de XAMPP (si usas esta herramienta para la base de datos)
+mysql/data/
+xampp/
+
+# Archivos de bases de datos locales (si tienes una base de datos local que no debería subirse)
+*.sqlite
+*.sqlite3
+
+# Archivos generados por el framework (por ejemplo, Flask)
+instance/
+*.db
+
+# Archivos de caché y otros temporales
+*.bak
+*.swp
+*.swo
+
+# Archivos de pruebas locales
+tests/.coverage
+.env
+pip install -r .\settings\requirements.txt

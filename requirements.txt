@@ -1,0 +1,8 @@
+Flask==2.3.3
+flask-mysqldb==1.0.1
+mysql-connector-python==8.0.33
+PyJWT==2.8.0
+Flask-Cors==5.0.0
+python-dotenv==1.0.0
+Flask-Migrate==4.0.4
+bcrypt==4.0.1
